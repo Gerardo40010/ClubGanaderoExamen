@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    padding: auto;
+    width: 100%;
+    height: 26vh; 
+}
+.imgganado{
+    width:100% ;
+    height: 500px;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav h1{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    
+}
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.img-texto {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.imgganado {
+    width: 100%;
+    height: 500px; 
+    display:flex;
+}
+
+
+.textoimg {
+    position: absolute;
+    top: 88%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.222); 
+    color: white;
+    padding: 10px;
+}
+.textoimg h1{
+    text-align: center;
+    display: block;
+}
+.noticiatittle{
+    text-align: center;
+    top: 95%;
+}
+.noticias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticia-img {
+    flex: 0 0 30%; /* Ancho fijo del 30% para cada imagen */
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+.noticia-img h2{
+    text-align: center;
+}
+.noticia-img p{
+    text-align: center;
+}
+.quienes-somos- {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 128, 0, 0.3);
+    padding: 20px;
+}
+
+
+.quienes-somos-img {
+    flex: 0 0 40%;
+    margin-right: 20px; 
+}
+
+
+.quienes-somos-texto {
+    flex: 0 0 60%; 
+}
+.quienes-somos-texto h2{
+    text-align: center;
+}
+.quienes-somos-texto p{
+    text-align: center;
+}
+.estadisticas {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+.estadisticas h1{
+    text-align: center;
+}
+
+
+.estadistica {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: calc(50% - 20px);
+}
+ footer {
+        background-color: rgba(247, 219, 219, 0.688);
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 1rem;
+     }
